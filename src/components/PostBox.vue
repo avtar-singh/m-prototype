@@ -1,9 +1,9 @@
 <template>
     <div class="media m-3">
-    <img class="img-fluid img-thumb" src="../assets/logo.png" alt="Card image cap">
+    <img class="img-fluid img-thumb" src="../assets/4.png" alt="Card image cap">
     <div class="media-body pt-0" id="postData">
-        <h3 class="card-title left px-2 mb-1">{{postTitle}}</h3>
-        <h6 class="text-uppercase card-title left px-2 mb-0 font-weight-bold">{{postSubTitle}}</h6>
+        <h3 class="card-title left px-2 mb-1 text-uppercase">{{postTitle}}</h3>
+        <h6 class="card-title left px-2 mb-0 font-weight-bold">{{postSubTitle}}</h6>
         <div class="left px-2 pt-0 mb-1">
             <span class="font-weight-bold">{{postPlace}}</span>
             <br>
@@ -37,8 +37,8 @@ export default {
 
 <style scoped>
     .img-thumb{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
     #red{
         color: darkred;

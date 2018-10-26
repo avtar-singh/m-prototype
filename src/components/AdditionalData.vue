@@ -24,7 +24,7 @@ export default {
 <style scoped>
     .bd-rulers{
     padding-top: 1em;
-    border-top: 2px solid #343a40;
-    border-bottom: 2px solid #343a40;
+    border-top: 1px solid #343a40;
+    border-bottom: 1px solid #343a40;
     }
 </style>

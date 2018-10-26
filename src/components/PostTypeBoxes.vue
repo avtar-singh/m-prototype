@@ -1,6 +1,6 @@
 <template>
     <div class="media m-3">
-    <img class="img-fluid img-thumb" src="../assets/logo.png" alt="Card image cap">
+    <img class="img-fluid img-thumb" src="../assets/7.png" alt="Card image cap">
     <div class="media-body pt-0" id="postData">
         <h3 class="card-title left px-2 mb-1">{{postTitle}}</h3>
         <h6 class="text-uppercase card-title left px-2 mb-0 font-weight-bold">{{postSubTitle}}</h6>

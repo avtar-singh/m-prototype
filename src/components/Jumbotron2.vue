@@ -16,9 +16,9 @@ export default {
 
 <style>
 
-/* .jumbotron{
-    margin-right: 20px !important;
-} */
+.jumbotron{
+    height: 55%;
+}
 
 </style>
 

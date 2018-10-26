@@ -4,7 +4,7 @@
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
-      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="./assets/Gilroy/MyFontsWebfontsKit.css">
       <Header></Header>
       <Container></Container>
       <Footer></Footer>
@@ -25,7 +25,9 @@ import Footer from './components/Footer'
 
 <style>
 	#app {
-    font-family: 'Raleway', sans-serif;
+    font-family: Gilroy-Light;
+    font-weight: normal;
+    font-style: normal;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 		text-align: center;

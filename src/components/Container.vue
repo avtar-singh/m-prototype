@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-8 my-custom-col-pad my-custom-right-border my-3">
+            <div class="ml-2 col-md-8 my-custom-col-pad my-custom-right-border my-3">
                 <Post/>
                  <SubPostBox/>
             </div>
@@ -52,12 +52,13 @@ export default {
 body{
     margin: 2em !important;
     padding: 0;
+    letter-spacing: 1.2px !important;
 }
 .my-centered-content{
   margin: auto;
 }
 .my-custom-right-border{
-    border-right: 1px solid black;
+    border-right: 0.5px solid #343a40;
 }
 .my-custom-col-pad{
     padding-left: 0 !important;
@@ -66,8 +67,9 @@ body{
     margin-left: 20px;
 } */
 hr{
-    border: 1px solid black !important;
+    border: 0.5px solid #343a40 !important;
     /* margin-left: 20px; */
+    font-weight: 300 !important;
     margin-bottom: 2rem !important;
 }
 #red{

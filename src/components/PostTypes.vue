@@ -22,7 +22,7 @@ export default {
 
 <style>
 fieldset{
-    border: 1px dotted black !important;
+    border: 1px dotted #343a40 !important;
     /* margin-left: 20px !important; */
 }
 legend{

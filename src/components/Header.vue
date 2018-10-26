@@ -44,7 +44,7 @@ h1{
 }
 .nav-rulers{
   /* margin: 0 2em; */
-  border-top: 2px solid #343a40;
-  border-bottom: 2px solid #343a40;
+  border-top: 1px solid #343a40;
+  border-bottom: 1px solid #343a40;
 }
 </style>

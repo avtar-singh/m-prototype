@@ -36,5 +36,14 @@ export default {
   width: 200px;
 }
 
+nav{
+    font-size: 1.3em;
+}
+
+.nav-link{
+    text-decoration: none !important;
+    text-transform: uppercase;
+}
+
 </style>
 
