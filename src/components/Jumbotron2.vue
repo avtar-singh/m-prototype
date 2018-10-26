@@ -1,9 +1,13 @@
 <template>
     <div class="jumbotron">
-    <h1 class="display-4">7 Benefits for Writers</h1>
+    <h1 class="display-4">
+        7<center>FÖRDELAR</center>
+        <center>FÖR</center>
+        <center>SKRIBNTER</center>
+    </h1>
     <p class="lead">
         <a href="#"><i class="fas fa-caret-right" id="red"></i></a>&nbsp;&nbsp;&nbsp;
-        <a class="btn btn-primary btn-lg" href="#" role="button">TIPS HERE</a>
+        <button class="my-custom-white-bt">TIPS HÄR</button>
     </p>
     </div>
 </template>
@@ -14,10 +18,21 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
 .jumbotron{
-    height: 55%;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.my-custom-white-bt{
+    color: rgba(0,0,0,0.1);
+    background-color: white;
+    width: 130px !important;
+    height: 50px !important;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-width: 0;    
 }
 
 </style>

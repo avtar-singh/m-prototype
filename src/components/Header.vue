@@ -8,9 +8,9 @@
         <SliderImages/>
       </div>
       <div class="col-lg-3 my-centered-content text-left">
-        <div><i class="fas fa-pencil-alt"></i><a href="#"> Create New Post</a></div>
-        <div><i class="fas fa-unlock-alt"></i><a href="#"> Login</a></div>
-        <div><i class="fas fa-search"></i><a href="#"> Sign Up</a></div>
+        <div class="mt-1"><i class="fas fa-pencil-alt"></i><a href="#"> BLI MEDLEM</a></div>
+        <div class="my-1"><i class="fas fa-unlock-alt"></i><a href="#"> LOGGA IN</a></div>
+        <div class="mb-1"><i class="fas fa-search"></i><a href="#" style="color: red !important;"> SÖK</a></div>
       </div>
     </div>
     <div class="nav-rulers">

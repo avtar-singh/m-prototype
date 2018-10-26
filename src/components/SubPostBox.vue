@@ -5,17 +5,17 @@
                 <div class="media mx-3 mb-3">
                 <div class="media-body pt-0" id="postData">
                     <h3 class="card-title left pr-2 mb-1">{{postTitle}}</h3>
-                    <h6 class="text-uppercase card-title left pr-2 mb-0 font-weight-bold">{{postSubTitle}}</h6>
+                    <h6 class="text-uppercase card-title left pr-2 mb-0 font-weight-bold" style="font-size: 14px;">{{postSubTitle}}</h6>
                     <div class="left pr-2 pt-0 mb-1">
-                        <span class="font-weight-bold">{{postPlace}}</span>
+                        <span class="font-weight-bold" style="font-size: 13px;">{{postPlace}}</span>
                         &nbsp;
-                        <span class="font-weight-light">{{postDate}}</span>
+                        <span class="font-weight-light" style="font-size: 12px;">{{postDate}}</span>
                         &nbsp;
-                        <span class="font-weight-light">{{postTime}}</span>
-                        &nbsp;
-                        <span class="font-weight-light">{{postStatus}}</span>
+                        <span class="font-weight-light" style="font-size: 12px;">{{postTime}}</span>
                     </div>
-                    <p class="card-text left pr-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer...<a href="#"><i class="fas fa-caret-right" id="red"></i></a></p>
+                    <p class="card-text left pr-2">Världens bästa vandringar - 15 enastående
+leder att vandra innan du
+dör nist, ut quia quidlent, etum…<a href="#"><i class="fas fa-caret-right" id="red"></i></a></p>
                 </div>
                 </div>               
             </div>
@@ -23,17 +23,17 @@
                 <div class="media mx-3 mb-3">
                 <div class="media-body pt-0" id="postData">
                     <h3 class="card-title left pr-2 mb-1">{{postTitle}}</h3>
-                    <h6 class="text-uppercase card-title left pr-2 mb-0 font-weight-bold">{{postSubTitle}}</h6>
+                    <h6 class="text-uppercase card-title left pr-2 mb-0 font-weight-bold" style="font-size: 14px;">{{postSubTitle}}</h6>
                     <div class="left pr-2 pt-0 mb-1">
-                        <span class="font-weight-bold">{{postPlace}}</span>
+                        <span class="font-weight-bold" style="font-size: 13px;">{{postPlace}}</span>
                         &nbsp;
-                        <span class="font-weight-light">{{postDate}}</span>
+                        <span class="font-weight-light" style="font-size: 12px;">{{postDate}}</span>
                         &nbsp;
-                        <span class="font-weight-light">{{postTime}}</span>
-                        &nbsp;
-                        <span class="font-weight-light">{{postStatus}}</span>
+                        <span class="font-weight-light" style="font-size: 12px;">{{postTime}}</span>
                     </div>
-                    <p class="card-text left pr-2">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer...<a href="#"><i class="fas fa-caret-right" id="red"></i></a></p>
+                    <p class="card-text left pr-2">Världens bästa vandringar - 15 enastående
+leder att vandra innan du
+dör nist, ut quia quidlent, etum…<a href="#"><i class="fas fa-caret-right" id="red"></i></a></p>
                 </div>
                 </div>   
             </div>
@@ -45,12 +45,11 @@ export default {
     name: 'SubPostBox',
     data() {
     return {
-            postTitle: 'Life Style',
-            postSubTitle: 'Culture',
-            postPlace: 'Los Vegas',
-            postDate: '24 OCT',
-            postTime: '4:25pm',
-            postStatus: 'Reading'
+            postTitle: '15 BÄSTA VANDRINGARNA',
+            postSubTitle: 'LIVSSTIL',
+            postPlace: 'Lowe Andersson',
+            postDate: '12 SEPT',
+            postTime: '13 MIN'
         }
     }
 }

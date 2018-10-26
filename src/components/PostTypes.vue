@@ -1,7 +1,7 @@
 <template>
     <form>
     <fieldset>
-        <legend class="text-uppercase">&nbsp;SELECTED FOR YOU&nbsp;</legend>
+        <legend class="text-uppercase" style="font-size: 40px;letter-spacing: 0 !important;">&nbsp;UTVALT FÖR DIG&nbsp;</legend>
         <PostTypeBoxes/>
         <PostTypeBoxes/>
         <PostTypeBoxes/>
@@ -22,11 +22,12 @@ export default {
 
 <style>
 fieldset{
-    border: 1px dotted #343a40 !important;
+    border: 1px dashed #343a40 !important;
     /* margin-left: 20px !important; */
 }
 legend{
     text-align: center;
     width: unset !important;
+    font-family: 'Abril Fatface', cursive;
 }
 </style>

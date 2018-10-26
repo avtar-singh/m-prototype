@@ -6,19 +6,19 @@
     <div class="collapse navbar-collapse justify-content-md-center" id="navbarNav">
         <ul class="navbar-nav">
         <li class="nav-item active">
-            <a class="nav-link" href="#">Home / Yard <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">HEM/ TRÄDGÅRD<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Culture</a>
+            <a class="nav-link" href="#">KULTUR</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Parenthood</a>
+            <a class="nav-link" href="#">FÖRÄLDRASKAP</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Life Style</a>
+            <a class="nav-link" href="#">LIVSSTIL</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Popularity</a>
+            <a class="nav-link" href="#">POPULÄRT</a>
         </li>
         </ul>
     </div>

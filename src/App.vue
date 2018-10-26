@@ -4,7 +4,10 @@
         href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" 
         integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" 
         crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="./assets/Gilroy/MyFontsWebfontsKit.css">
+      <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
       <Header></Header>
       <Container></Container>
       <Footer></Footer>
@@ -25,7 +28,7 @@ import Footer from './components/Footer'
 
 <style>
 	#app {
-    font-family: Gilroy-Light;
+    font-family: 'Nunito Sans', sans-serif;
     font-weight: normal;
     font-style: normal;
 		-webkit-font-smoothing: antialiased;

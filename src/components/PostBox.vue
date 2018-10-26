@@ -2,18 +2,19 @@
     <div class="media m-3">
     <img class="img-fluid img-thumb" src="../assets/4.png" alt="Card image cap">
     <div class="media-body pt-0" id="postData">
-        <h3 class="card-title left px-2 mb-1 text-uppercase">{{postTitle}}</h3>
-        <h6 class="card-title left px-2 mb-0 font-weight-bold">{{postSubTitle}}</h6>
+        <h6 class="card-title left px-2 mb-0 font-weight-boldv" style="font-size: 18px;">{{postSubTitle}}</h6>
         <div class="left px-2 pt-0 mb-1">
-            <span class="font-weight-bold">{{postPlace}}</span>
+            <span class="font-weight-bold" style="font-size: 13px;">{{postPlace}}</span>
             <br>
-            <span class="font-weight-light">{{postDate}}</span>
+            <span class="font-weight-light" style="font-size: 12px;">{{postDate}}</span>
             &nbsp;
-            <span class="font-weight-light">{{postTime}}</span>
+            <span class="font-weight-light" style="font-size: 12px;">{{postTime}}</span>
             &nbsp;
-            <span class="font-weight-light">{{postStatus}}</span>
+            <span class="font-weight-light" style="font-size: 12px;">{{postStatus}}</span>
         </div>
-        <p class="card-text left px-2">This content is a little bit longer... <a href="#"><i class="fas fa-caret-right" id="red"></i></a></p>
+        <p class="card-text left px-2">16 saker du får
+panik över om du
+har kontrollb… <a href="#"><i class="fas fa-caret-right" id="red"></i></a></p>
     </div>
     </div>   
 </template>
@@ -23,12 +24,11 @@ export default {
     name: 'PostBox',
     data() {
     return {
-            postTitle: 'Life Style',
-            postSubTitle: 'Culture',
-            postPlace: 'Los Vegas',
-            postDate: '24 OCT',
-            postTime: '4:25pm',
-            postStatus: 'Reading'
+            postSubTitle: 'LIVSSTIL',
+            postPlace: 'Lowe Andersson',
+            postDate: '12 SEPT',
+            postTime: '13 MIN',
+            postStatus: 'LÄSNING'
         }
     }
 }

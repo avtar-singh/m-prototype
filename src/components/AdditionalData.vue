@@ -2,14 +2,14 @@
     <div class="bd-rulers px-1">
         <div class="row">
             <div class="col-md-6 left">
-                <p>Health</p>
-                <p>Agriculture</p>
-                <p>Media</p>
+                <p>HJÄLP</p>
+                <p>FÖR SKRIBNTER</p>
+                <p>KARRIÄR</p>
             </div>
             <div class="col-md-6 left">
-                <p>Health</p>
-                <p>Agriculture</p>
-                <p>Media</p>
+                <p>VILLKOR</p>
+                <p>OM</p>
+                <p>XXXX XXXX</p>
             </div>
         </div>
     </div>
