@@ -2,7 +2,7 @@
     <div class="media m-3">
     <img class="img-fluid img-thumb" src="../assets/4.png" alt="Card image cap">
     <div class="media-body pt-0" id="postData">
-        <h6 class="card-title left px-2 mb-0 font-weight-boldv" style="font-size: 18px;">{{postSubTitle}}</h6>
+        <h6 class="card-title left px-2 mb-0 font-weight-bold" style="font-size: 18px;">{{postSubTitle}}</h6>
         <div class="left px-2 pt-0 mb-1">
             <span class="font-weight-bold" style="font-size: 13px;">{{postPlace}}</span>
             <br>
@@ -43,5 +43,10 @@ export default {
     #red{
         color: darkred;
         font-size: 15px;
+    }
+    p.card-text.left.px-2{
+        font-weight: 500;
+        font-size: 18px !important;
+        line-height: 20px !important;
     }
 </style>
