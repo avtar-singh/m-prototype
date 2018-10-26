@@ -1,7 +1,15 @@
 <template>
     <div class="container-fluid">
         <div class="mb-3">
-            <img class="img-fluid" src="../assets/logo.png" alt="Card image cap">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="img-fluid" style="width: 100%; height: 275px !important;" src="../assets/logo.png" alt="Card image cap">
+                    <img class="img-fluid" style="width: 100%; height: 175px !important;" src="../assets/logo.png" alt="Card image cap">
+                </div>
+                <div class="col-md-8">
+                    <img class="img-fluid" style="width: 100%; height: 450px !important;" src="../assets/logo.png" alt="Card image cap">
+                </div>
+            </div>
             <div class="card-body pl-0 py-0" id="postData">
             <h3 class="card-title left pr-2 mb-1">{{postTitle}}</h3>
             <h6 class="text-uppercase card-title left pr-2 mb-0 font-weight-bold">{{postSubTitle}}</h6>
